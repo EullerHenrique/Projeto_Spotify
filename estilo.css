@@ -6,8 +6,8 @@ html,body,#home{
 }
 
 body{
-    background: url(../IMG/capa.png),
-                url(../IMG/ruido.png),
+    background: url(capa.png),
+                url(ruido.png),
                 linear-gradient(50deg, #ff4169, #7c26f8);
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
@@ -261,20 +261,4 @@ h3{
     }
 }
 
-/* Margin-left, Margin-right diminui o conteúdo em uma proporção muito maior do que o paddign-left e padding-right
-Margin top, Margin botton, Padding tleft Padding right não fazem com que o conteúdo diminua
 
-Para o conteudo diminuir proporcionamento todas as direções do padding devem ser usadas
-
-Margin top margin bottom = usado para se afastar, obs: as margens se sobrepoem
-Margin left Margin right = usado para diminuir o conteudo verticalmente
-Margin = usado para diminuir p conteudo verticalmente e horizontamente,
-colocando um background ou borda ao redor do conteudo, proporção de diminuição maior do que a do padding
-Útil para afastar conteúdo fora do bloco
-
-Padding top, padding botton = usado para afastamento, os paddigns não se sobrepoem, eles se acumulam
-Padding lefy, Padding right = usado para diminuir o conteudo verticamente
-Padding = usado para diminuir o conteúdo verticalmente e horizontamente,
-colocando uma margem invisivel ao redor do conteudo, proporção de diminuição menor do que a d
-Útil para afastar conteudo dentro do seu próprio bloco
- */
