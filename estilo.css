@@ -6,8 +6,8 @@ html,body,#home{
 }
 
 body{
-    background: url(capa.png),
-                url(ruido.png),
+    background: url(../IMG/capa.png),
+                url(../IMG/ruido.png),
                 linear-gradient(50deg, #ff4169, #7c26f8);
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
@@ -157,6 +157,11 @@ h3{
     letter-spacing: -0.04em;
 }
 
+header .navbar{
+    padding: 0 15px
+}
+
+
 /*Media Queries*/
 
 /*Extra small devices (portrait phones, less than 576px)*/
@@ -178,6 +183,9 @@ h3{
         margin-bottom: 20px;
     }
 
+    header .navbar-brand img{
+        width: 90px;
+    }
 
 }
 
@@ -185,8 +193,14 @@ h3{
     #home{
         height: 412px;
     }
-
 }
+
+@media (max-width: 480px) {
+    #home{
+        margin-top: 50px;
+    }
+}
+
 
 @media (max-width: 400px) {
     footer #img {
@@ -212,7 +226,25 @@ h3{
     h1{
         font-size: 2em;
     }
+
+    header .navbar-brand img{
+        width: 90px;
+    }
 }
+
+@media (max-width: 182px) {
+    header .navbar-brand img{
+        width: 60px;
+    }
+
+    header .navbar-toggler{
+        padding: 5px;
+    }
+
+}
+
+
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -228,6 +260,10 @@ h3{
         margin-bottom: 20px;
     }
 
+    header .navbar-brand img{
+        width: 90px;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -238,6 +274,10 @@ h3{
 
     .btn-custom {
        margin-left: 10px;
+    }
+
+    header .navbar-brand img{
+        width: 90px;
     }
 
 
@@ -260,5 +300,3 @@ h3{
         margin-left: 10px;
     }
 }
-
-
