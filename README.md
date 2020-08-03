@@ -1,5 +1,5 @@
 ## Site Online:
-###### https://eullerhenrique.github.io/Projeto_Spotify/
+###### https://eullerhenrique.github.io/Spotify/
 
 ## Projeto Spotify: 
 
